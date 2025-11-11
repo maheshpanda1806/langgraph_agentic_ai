@@ -1,0 +1,20 @@
+# Project Configuration for LangGraph Learning
+# This configuration file defines the project metadata, dependencies, and settings
+
+[project]
+name = "langgraph-learning"
+version = "0.1.0"
+description = "Agentic AI Crash Course using LangGraph - Learn to build AI agents with LangGraph framework"
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Project Dependencies
+# Core dependencies for building LangGraph applications
+dependencies = [
+    "langchain>=0.3.25",              # LLM framework for building applications
+    "langchain-google-genai>=2.1.5",  # Google Gemini integration with LangChain
+    "langgraph>=0.4.8",               # Graph-based orchestration framework for agents
+    "langsmith>=0.3.45",              # Tracing and monitoring for LLM applications
+    "notebook>=7.4.3",                # Jupyter notebook support
+    "python-dotenv>=1.1.0",           # Environment variable management
+]
